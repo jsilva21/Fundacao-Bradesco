@@ -1,0 +1,42 @@
+<HTML >
+		<HEAD>
+				<TITLE>Criando e formatando formularios</TITLE>
+				<link rel="stylesheet" type="text/css" a href="estilos.css">
+		</HEAD>
+<BODY>
+	<FORM ACTION="email@email.com" METHOD="get">
+		
+		<P><FONT FACE="CALIBRI">Nome: <INPUT TYPE=TEXT  NAME="nome" SIZE="50" MAXLENGHT="50"></P>
+		<P>Estado:<INPUT TYPE =text NAME="uf" SIZE="2" VALUE="SP"></FONT></P>
+				
+		<P>Endereço: <INPUT TYPE=TEXT  NAME="end"  SIZE="50"</P>
+		<P>Referência: <TEXTAREA NAME="ref" ROWS="2" COLS= "40"></TEXTAREA></P>
+
+		<SELECT  NAME="cidades" SIZE="4">
+            <OPTION>Londres 
+            <OPTION>Paris
+            <OPTION>Roma 
+            <OPTION>Madri
+        </SELECT>
+		<SELECT NAME="cidades">
+           <OPTION>Londres 
+           <OPTION>Paris
+           <OPTION>Roma 
+           <OPTION>Madri
+        </SELECT><br><br>
+		<INPUT TYPE=checkbox NAME="horario1" SIZE="1">8h às 12h<BR>
+		<INPUT TYPE=checkbox NAME="horario2" SIZE="1">13h às 15h<BR>
+		<INPUT TYPE=checkbox NAME="horario2" SIZE="1">16h às 18h</P>
+
+		<P>N° Cartão de Credito: <input type=text name="nome_cartão" size="16"></P>
+		<P>Selecione a bandeira do cartão de crédito:<BR>
+            <INPUT TYPE=radio NAME="selecao-cartao" >VISA<BR>
+            <INPUT TYPE=radio NAME="selecao-cartao">MASTERCARD<br>
+		<P>Senha: <input type=password name="senha" size="6"></P>
+		<INPUT TYPE=submit VALUE="Enviar">
+		<INPUT TYPE=reset VALUE="Limpar">		
+        </P>		
+		
+	</FORM>
+</BODY>
+</HTML >
